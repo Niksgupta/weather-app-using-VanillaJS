@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Weather App</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<div class="container">
+  <div class="card">
+      <h2><i class="fa fa-map-marker"></i> <span id="location"></span></h2>
+      <h6 id="weather-des"></h6>
+      <h4 id="temp">- °<span>C</span></h4>
+      <h4 id="icon">
+      <img src="unknown.png" alt=""></h4>
+      <button onClick="window.location.reload();" class="refresh"><i class="fa fa-refresh"></i></button>
+  </div>
+</div>
+</body>
+<script type="text/javascript" src="weather.js"></script>
+</html>
